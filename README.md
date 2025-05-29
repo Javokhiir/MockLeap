@@ -39,7 +39,6 @@ Note: In development mode, data will not persist between sessions.
 
 - React + TypeScript
 - TailwindCSS
-- HeroUI Components
 - Supabase (Auth, Database, Storage)
 - OpenAI API
 - i18next for localization
