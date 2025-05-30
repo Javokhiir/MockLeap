@@ -141,7 +141,7 @@ const Results: React.FC = () => {
       
       // Add RealMockTest title
       doc.setFontSize(18);
-      doc.text('RealMockTest AI Assistant', 148.5, 55, { align: 'center' });
+      doc.text('MockLeap', 148.5, 55, { align: 'center' });
       
       // Add line
       doc.setLineWidth(1);
@@ -196,7 +196,7 @@ const Results: React.FC = () => {
       const pdfUrl = URL.createObjectURL(pdfBlob);
       const link = document.createElement('a');
       link.href = pdfUrl;
-      link.download = `realmocktest-certificate-${profile.username}.pdf`;
+      link.download = `realmocktest-MockLeap-certificate-${profile.username}.pdf`;
       link.click();
       
       addToast({

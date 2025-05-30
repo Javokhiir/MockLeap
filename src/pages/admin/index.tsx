@@ -501,18 +501,7 @@ const UserManagement: React.FC<{ onUpdate: () => void }> = ({ onUpdate }) => {
                       isIconOnly
                       aria-label="Edit user"
                     >
-                      <Icon icon="lucide:edit" size={16} />
-                    </Button>
-                    <Button
-                      size="sm"
-                      variant="light"
-                      color="danger"
-                      isIconOnly
-                      aria-label="Delete user"
-                      onPress={() => handleDeleteUser(user.id)}
-                      isDisabled={user.user_metadata?.isAdmin} // Prevent deleting admin
-                    >
-                      <Icon icon="lucide:trash-2" size={16} />
+                      <Icon icon="lucide:edit" width={16} height={16} />
                     </Button>
                   </div>
                 </td>
@@ -694,7 +683,7 @@ const TestResultsManagement: React.FC = () => {
                       isIconOnly
                       aria-label="View details"
                     >
-                      <Icon icon="lucide:eye" size={16} />
+                      <Icon icon="lucide:edit" width={16} height={16} />
                     </Button>
                   </div>
                 </td>
